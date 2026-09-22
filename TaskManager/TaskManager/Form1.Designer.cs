@@ -103,7 +103,7 @@
             textBox1.Location = new Point(11, 153);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Placeholder";
-            textBox1.Size = new Size(115, 24);
+            textBox1.Size = new Size(122, 24);
             textBox1.TabIndex = 7;
             // 
             // panel3

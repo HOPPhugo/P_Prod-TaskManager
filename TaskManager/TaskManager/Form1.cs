@@ -1,5 +1,4 @@
 using System.Runtime.CompilerServices;
-using TaskObj;
 namespace TaskManager
 {
     public partial class Form1 : Form
@@ -7,7 +6,10 @@ namespace TaskManager
 
         private int nbrTask = 0;
         private int nbrCompletedTask = 0;
-        private List<Tache> tasks = new List<Tache>();
+        private int id = 1;
+        private const int X = 100;
+        private int y = 250;
+        private List<Label> tasks = new List<Label>();
 
         public Form1()
         {
@@ -25,6 +27,17 @@ namespace TaskManager
                     panel1.Select();
                 };
             }
+        }
+        private void InitalizeLabel(Label myLabel, string text)
+        {
+            myLabel.Name = $"myLabel{id}";
+            myLabel.AutoSize = true;
+            myLabel.Font = new Font("Arial Rounded MT Bold", 15);
+            myLabel.Location = new Point(X, y);
+            myLabel.TabIndex = 1;
+            myLabel.Text = text;
+            y += 50;
+            id++;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -46,27 +59,21 @@ namespace TaskManager
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SuspendLayout();
-            panel1.SuspendLayout();
-            panel3.SuspendLayout();
-            tasks.Add(new Tache(textBox1.Text));
-            // Creating and setting the label 
-            Label mylab = new Label();
-            mylab.Text = "GeeksforGeeks";
-            mylab.Location = new Point(222, 90);
-            mylab.AutoSize = true;
-            mylab.Font = new Font("Calibri", 18);
-            mylab.ForeColor = Color.Green;
-            mylab.Padding = new Padding(6);
+            if (textBox1.Text.Length != 0)
+            {
+                SuspendLayout();
+                tasks.Add(new Label());
+                this.Controls.Clear();
+                InitalizeLabel(tasks[tasks.Count-1], textBox1.Text);
+                foreach (Label l in  tasks)
+                {
+                    this.Controls.Add(l);
+                }
+                InitializeComponent();
+                FormLoad();
+                ResumeLayout();
 
-            // Adding this control to the form 
-            this.Controls.Clear();
-            this.Controls.Add(mylab);
-            InitializeComponent();
-            FormLoad();
-            ResumeLayout();
-            panel1.ResumeLayout();
-            panel3.ResumeLayout();
+            }
 
         }
 
@@ -75,24 +82,4 @@ namespace TaskManager
             
         }
     }
-}
-namespace TaskObj
-{
-    public class Tache
-    {
-        private int x = 50 ;
-        private const int y = 20;
-        public Label label8 { get; protected set; }
-        public Tache(string name)
-        {
-            label8 = new Label();
-            label8.Text = name;
-            label8.Location = new Point(x, y);
-            label8.AutoSize = true;
-            label8.Font = new Font("Calibri", 18);
-            label8.ForeColor = Color.Black;
-            label8.Padding = new Padding(6);
-        }
-    }
-
 }
