@@ -1,4 +1,4 @@
-﻿namespace TaskManager
+﻿namespace TacheEnvironnement
 {
     partial class Form1
     {
@@ -67,27 +67,27 @@
             panel2.BackColor = Color.CornflowerBlue;
             panel2.Location = new Point(-7, 198);
             panel2.Name = "panel2";
-            panel2.Size = new Size(402, 587);
+            panel2.Size = new Size(402, 579);
             panel2.TabIndex = 1;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
+            label3.BackColor = SystemColors.HotTrack;
             label3.Font = new Font("Arial Rounded MT Bold", 15F);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(73, 789);
+            label3.Location = new Point(0, 781);
             label3.Name = "label3";
-            label3.Size = new Size(239, 23);
+            label3.Size = new Size(395, 36);
             label3.TabIndex = 2;
             label3.Text = "Task Completed : 10/10";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
             label3.Click += label3_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = Properties.Resources.Rounded_rectangle;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(-18, 142);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(177, 50);
@@ -139,6 +139,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             BackColor = SystemColors.HotTrack;
             ClientSize = new Size(388, 835);
             Controls.Add(textBox1);

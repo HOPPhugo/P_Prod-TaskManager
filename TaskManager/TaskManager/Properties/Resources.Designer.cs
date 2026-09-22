@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TaskManager.Properties {
+namespace TacheEnvironnement.Properties {
     using System;
     
     
@@ -76,6 +76,30 @@ namespace TaskManager.Properties {
         internal static System.Drawing.Bitmap TaskManagerBackground {
             get {
                 object obj = ResourceManager.GetObject("TaskManagerBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RecycleBin
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("RecycleBin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RecycleBinClosed
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("RecycleBinClosed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

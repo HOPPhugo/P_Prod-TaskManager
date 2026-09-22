@@ -118,10 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAKwAAAAuCAYAAAC1SfILAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EAAACxABrSO9dQAAApZJREFUeF7t3b9qFVEQx/E0ipKIKJhOksLGZ4gBn0BSWqaymsIiRV5AG0EjNnbz
+        CilTCdpYCDYB8R9oowTEKiBRxJFZT/DeYbzs9e5mz4XvwKc6Z/8Uvxs2++fMwsKMJWqXRO2GqN0RtWei
+        9k3UDChZeCpqd0tGLsb8nEiJ2qKo3SoBjScJTOIB9uwsxVx1XiWoW6L2NTkRYBpfRG1b1M7EnHVSorYu
+        ah+TAwOzeC1q12Pe/rv8FyBqO6L2KzkY0AXP1n1ROxXzN1WJ2lVRe5UcAOjDS89czGGrErUrovYu2SnQ
+        J8/c5ZjHiSVqq6L2IdkZcBI8e6sxl2kRVlSiXWhF7XGyMTCEnZjPsRK1tWQjYCg/Re1azGlT5aHA+2Qj
+        YEhvRe10zKsH1p86xMlADbZjWM+K2udkIlCDT57R0cBuJpOAmmyOBnYvmQDUZO84rMui9iOZANTku6id
+        88DeTAaBGm14YB8lA0CNHnD9inmy64F9kwwANdr3wB4kA0CNDjywR8kAUKMjAot50gSWSwLMi+aSYD8Z
+        AGrU/NO1mwwANWpuaz1MBoAa3fPAbiQDQI2aR7MXkgGgRud5vRDz4s/rhbzAjTkx9gK3fyLjnyHESUAN
+        /POtv5/IlNDyESJqdXssrCWwS+WT2jgZGJIvPbAY89oUC2mgQmsxp2PFUkWoyOSlirzKpQHLbGJo/74U
+        iMUKhhhYu5ULR0vUVvhLiwF45lZiHltVWbPgRbJToA+eteWYw6nKGyWUhgk05UBfPFve+GW2phyj5a1p
+        uK5FD/ze/3rMWydV7iD4EzFvChYPDEzDmxNuxYz1UiW43n7xeXIiwCTe7tWz0+6WVdflDW9L41tvgOt9
+        RGmOjGOHovakNM7upDnyb1WdDeCaxnnJAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFkAAAAoCAYAAACVdVbLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAgtJREFUaEPtm69OA0EQhyuoAEdCRQmqT4BEopu+AgGBQIxAIklAVJKAqIEBQgiK
+        DAAACwwBP0AiyAAAAgtJREFUaEPtm69OA0EQhyuoAEdCRQmqT4BEopu+AgGBQIxAIklAVJKAqIEBQgiK
         8BQgMJVgCP9EEzAgSN2QuS6knU5p77pn6G+ST83utvuludvdzhYKGYNYFohljVjOiOWVWOQfovM6DvNc
         sA5yCWKpEMs+sdw7X2gS0Hnv5SKcWGaIpe586KTyRSy76sW6yhTEUiOWZ+eDQMdLzTobOYhljlhOnYFB
         Pyfqyzr8M4ilRCy3zmBgMOqrZF26QSzTxHLjDAKGc00sReu0L4jl0ukMRufIOu0JYtlwOoH0rFm3SYQX
