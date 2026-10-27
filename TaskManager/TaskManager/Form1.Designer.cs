@@ -64,10 +64,13 @@
             // 
             // panel2
             // 
+            panel2.AutoScroll = true;
+            panel2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             panel2.BackColor = Color.CornflowerBlue;
-            panel2.Location = new Point(-7, 198);
+            panel2.Location = new Point(-8, 193);
+            panel2.MinimumSize = new Size(400, 445);
             panel2.Name = "panel2";
-            panel2.Size = new Size(402, 579);
+            panel2.Size = new Size(400, 575);
             panel2.TabIndex = 1;
             // 
             // label3
@@ -75,9 +78,9 @@
             label3.BackColor = SystemColors.HotTrack;
             label3.Font = new Font("Arial Rounded MT Bold", 15F);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(0, 781);
+            label3.Location = new Point(0, 772);
             label3.Name = "label3";
-            label3.Size = new Size(395, 36);
+            label3.Size = new Size(395, 70);
             label3.TabIndex = 2;
             label3.Text = "Task Completed : 10/10";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -105,6 +108,10 @@
             textBox1.PlaceholderText = "Placeholder";
             textBox1.Size = new Size(122, 24);
             textBox1.TabIndex = 7;
+            textBox1.Click += textBox1_Click;
+            textBox1.TextChanged += textBox1_TextChanged;
+            textBox1.Enter += textBox1_Enter;
+            textBox1.Leave += textBox1_Leave;
             // 
             // panel3
             // 
@@ -126,7 +133,7 @@
             button1.FlatAppearance.BorderColor = Color.CornflowerBlue;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Arial Rounded MT Bold", 9F);
+            button1.Font = new Font("Arial Rounded MT Bold", 15F);
             button1.Location = new Point(265, 147);
             button1.Name = "button1";
             button1.Size = new Size(92, 40);
@@ -139,7 +146,6 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            AutoScroll = true;
             BackColor = SystemColors.HotTrack;
             ClientSize = new Size(388, 835);
             Controls.Add(textBox1);

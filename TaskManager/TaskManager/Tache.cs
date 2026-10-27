@@ -10,19 +10,24 @@ namespace TacheEnvironnement
     {
         public string Content { get;}
         public int X { get;}        
-        public int Y { get;}
-        public string Name { get;}
+        public int Y { get; set; }
+        public string Name { get; set; }
         public string Font { get;}
         public bool check  { get; set; }
-        public Tache(string content, string name, int x, int y)
+        public short Id { get; set; }
+        public Tache(string content, int x, int y, short _id)
         {
             this.Content = content;
-            this.Name = name;
+            ChangeName();
             this.X = x;
             this.Y = y;
             check = false;
             Font = "Arial Rounded MT Bold";
-
+            this.Id = _id;
+        }
+        public void ChangeName()
+        {
+            Name =  $"Tache N°{Id}";
         }
     }
 }

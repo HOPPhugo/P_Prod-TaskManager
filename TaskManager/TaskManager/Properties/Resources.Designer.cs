@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TacheEnvironnement.Properties {
+namespace TaskManager.Properties {
     using System;
     
     
@@ -63,6 +63,46 @@ namespace TacheEnvironnement.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _checked {
+            get {
+                object obj = ResourceManager.GetObject("_checked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _unchecked {
+            get {
+                object obj = ResourceManager.GetObject("_unchecked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RecycleBinClosed {
+            get {
+                object obj = ResourceManager.GetObject("RecycleBinClosed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RecycleBinOpened {
+            get {
+                object obj = ResourceManager.GetObject("RecycleBinOpened", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rounded_rectangle {
             get {
                 object obj = ResourceManager.GetObject("Rounded_rectangle", resourceCulture);
@@ -76,30 +116,6 @@ namespace TacheEnvironnement.Properties {
         internal static System.Drawing.Bitmap TaskManagerBackground {
             get {
                 object obj = ResourceManager.GetObject("TaskManagerBackground", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap RecycleBin
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("RecycleBin", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap RecycleBinClosed
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("RecycleBinClosed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
